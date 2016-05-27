@@ -1,0 +1,8 @@
+*.zip
+*.rar
+*.DS_Store
+*.iml
+*.pptx
+/build
+.idea/
+
