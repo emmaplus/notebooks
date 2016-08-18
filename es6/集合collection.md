@@ -10,11 +10,9 @@ Array Object  Map Set 这些都是集合类型的数据结构 , 下面分别介�
 
 Map 和 Object的区别 
   
-1. * Object有property
-
-2. * object的key只能是string类型，而map可以是任意类型
-
-3. * 可以很容易获取map的size
+1. Object有property
+2. object的key只能是string类型，而map可以是任意类型
+3. 可以很容易获取map的size
 
 ### Set
 
@@ -24,9 +22,8 @@ Map 和 Object的区别
 
 类似Set，也是不重复的值的集合。它与Set的有两个区别：
 
-1. * WeakSet 的成员只能是对象，即引用类型的值
-
-2. * WeakSet中的成员都是弱引用，即垃圾回收机制不考虑WeakSet对该对象的引用，这意味着无法引用WeakSet的成员，WeakSet也不可遍历。它还没有size属性
+1. WeakSet 的成员只能是对象，即引用类型的值
+2. WeakSet中的成员都是弱引用，即垃圾回收机制不考虑WeakSet对该对象的引用，这意味着无法引用WeakSet的成员，WeakSet也不可遍历。它还没有size属性
 
 #### 那WeakSet的作用是什么呢？
 
