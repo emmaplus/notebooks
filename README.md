@@ -1,4 +1,4 @@
-# notebooks
+## notebooks
 前端学习笔记
 
 #### CSS3
@@ -8,6 +8,7 @@
 #### ES6
 
 * [第七种原始数据类型](./es6/第七种原始数据类型.md)
+* [集合Collection](./es6/集合collection.md)
 
 
 #### 设计模式
