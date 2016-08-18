@@ -27,3 +27,5 @@ Memoization 是一种将函数返回值缓存起来的方法，Memoization 原�
     }
 
 
+## 参考
+[http://bbs.blueidea.com/thread-2943426-1-1.html](http://bbs.blueidea.com/thread-2943426-1-1.html)
