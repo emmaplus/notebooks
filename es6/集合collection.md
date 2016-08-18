@@ -2,11 +2,11 @@
 
 Array Object  Map Set 这些都是集合类型的数据结构 , 下面分别介绍一下这几种数据类型
 
-## Array
+### Array
 
 常见
 
-## Map
+### Map
 
 Map 和 Object的区别 
   
@@ -16,11 +16,11 @@ Map 和 Object的区别
 
 * 可以很容易获取map的size
 
-## Set
+### Set
 
 类似数组，但是成员的值都是唯一的，没有重复的值。可以作为给array去除的一种方法
 
-## WeakSet
+### WeakSet
 
 类似Set，也是不重复的值的集合。它与Set的有两个区别：
 
