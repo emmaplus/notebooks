@@ -23,7 +23,7 @@
 
 ## React
 
-* [高级性能优化](./react/doc/advanced-performance.md)
+* [高级性能优化](./react/advanced-performance.md)
 * redux在实际项目中的使用场景
 * context的使用
 
