@@ -2,6 +2,10 @@
 
 Box是css布局的对象和基本单位,直观点来说,就是一个页面是由很多个Box组成的.元素的类型和display属性决定了这个Box的类型
 
+* block-level box : display 属性为block, list-item, table的元素, 会参与 block formatting context 
+* inline-level box: display 属性为inline, inline-block, inline-table 的元素, 会参与 inline formatting context 
+* run-in box : css3中才有
+
 # Formatting context
 
 Formatting context 是页面中的一块渲染区域,并且有一套渲染规则,它决定了其子元素将如何定位,以及和其他元素的关系和相互作用.
@@ -29,3 +33,7 @@ CSS2.1中只有BFC 和 IFC ,CSS3中还增加了GFC 和 EFC.
 * position为absolute或fixed
 * display为inline-block,table-cell,table-caption,flex,inline-flex
 * overflow不为visible
+
+### _问题:_ 
+
+* display 为inline-block的是inline-level box ,而只有block-level box 参与BFC,那为什么这里会说display为inline-block的会生成BFC呢?
