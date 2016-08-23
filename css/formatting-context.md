@@ -32,8 +32,23 @@ CSS2.1中只有BFC 和 IFC ,CSS3中还增加了GFC 和 EFC.
 * float属性不为none
 * position为absolute或fixed
 * display为inline-block,table-cell,table-caption,flex,inline-flex
-* overflow不为visible
+* overflow的值为auto,scroll或hidden,即不为visible
 
 ### _问题:_ 
 
 * display 为inline-block的是inline-level box ,而只有block-level box 参与BFC,那为什么这里会说display为inline-block的会生成BFC呢?
+
+## BFC 使用场景 
+
+< 计算BFC的高度时,浮动元素也参与计算
+< BFC就是页面上的一个隔离的独立容器,容器里面的子元素不会影响到外面的元素.反之也如此.
+
+* 清除浮动
+
+< BFC的区域不会与float box重叠
+
+* 自适应布局
+
+< BFC就是页面上的一个隔离的独立容器,容器里面的子元素不会影响到外面的元素.反之也如此.
+
+* 避免 margin 穿透及重叠
