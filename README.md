@@ -13,6 +13,11 @@
 * 制作正反两面相同或不同的旋转效果
 * css3制作翻书效果
 * [那些你不知道的布局方法](./css/你不知道的布局方法.md)
+* [手机常用分辨率](./css/media-query.md)
+* 相应的media query解决方案,横竖屏css及js解决方案,关键字: _aspect-ratio_  _min-aspect-ratio_ _orientation_
+    http://stackoverflow.com/questions/1649086/detect-rotation-of-android-phone-in-the-browser-with-javascript
+    
+* [手机滑屏切换原理](http://web.jobbole.com/85375/)
 
 ## ES6
 
