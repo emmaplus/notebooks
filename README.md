@@ -16,7 +16,9 @@
 * [手机常用分辨率](./css/media-query.md)
 * 相应的media query解决方案,横竖屏css及js解决方案,关键字: _aspect-ratio_  _min-aspect-ratio_ _orientation_
     http://stackoverflow.com/questions/1649086/detect-rotation-of-android-phone-in-the-browser-with-javascript
+    http://www.kylejlarson.com/blog/iphone-6-screen-size-web-design-tips/
     
+* 响应式布局
 * [手机滑屏切换原理](http://web.jobbole.com/85375/)
 
 ## ES6
